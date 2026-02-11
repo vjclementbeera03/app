@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "passed_tests": 9,
+    "success_rate": "9/9",
+    "overall_success": true
+  },
+  "test_results": [
+    {
+      "test": "API Health Check",
+      "success": true,
+      "details": "Status: 200, Message: Food Ordering API",
+      "timestamp": "2026-02-09T00:58:34.183531"
+    },
+    {
+      "test": "Admin Login",
+      "success": true,
+      "details": "Login successful, token received",
+      "timestamp": "2026-02-09T00:58:34.408166"
+    },
+    {
+      "test": "GET /api/settings (public)",
+      "success": true,
+      "details": "All required fields present. Shop: Thu.Go.Zi \u2013 Food on Truck",
+      "timestamp": "2026-02-09T00:58:34.410582"
+    },
+    {
+      "test": "PUT /api/admin/settings",
+      "success": true,
+      "details": "Status: 200, Settings updated successfully",
+      "timestamp": "2026-02-09T00:58:34.412808"
+    },
+    {
+      "test": "GET /api/menu",
+      "success": true,
+      "details": "Menu items count: 10",
+      "timestamp": "2026-02-09T00:58:34.414728"
+    },
+    {
+      "test": "POST /api/validate-location",
+      "success": true,
+      "details": "Within radius: True, Distance: 0.0km",
+      "timestamp": "2026-02-09T00:58:34.416743"
+    },
+    {
+      "test": "GET /api/shop/status",
+      "success": true,
+      "details": "Shop open: True, Message: Open Now",
+      "timestamp": "2026-02-09T00:58:34.418051"
+    },
+    {
+      "test": "GET /api/about",
+      "success": true,
+      "details": "Title: About Our Food Hub",
+      "timestamp": "2026-02-09T00:58:34.419876"
+    },
+    {
+      "test": "GET /api/admin/dashboard",
+      "success": true,
+      "details": "Users: 0, Orders today: 0",
+      "timestamp": "2026-02-09T00:58:34.422941"
+    }
+  ],
+  "timestamp": "2026-02-09T00:58:34.423103"
+}
