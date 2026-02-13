@@ -69,7 +69,7 @@ JWT_SECRET="your-secure-secret-key"
 TWILIO_ACCOUNT_SID="your-twilio-sid"  # Optional
 TWILIO_AUTH_TOKEN="your-twilio-token"  # Optional
 TWILIO_VERIFY_SERVICE="your-verify-sid"  # Optional
-EMERGENT_LLM_KEY="your-google-vision-key"
+GOOGLE_VISION_API_KEY="your-google-vision-api-key"
 
 # Seed initial data
 python seed_data.py
